@@ -60,7 +60,21 @@ The current model achieved approximately **98.75% accuracy** on the test dataset
 
 ## How to Run
 
-### Install Required Libraries
-
 ```bash
+1. pip install -r requirements.txt
+Activate it on Windows:
+venv\Scripts\activate
+
+2.Install the required libraries
 pip install -r requirements.txt
+
+3. Run the gesture prediction
+python predict.py
+Press q to close the camera window.
+
+Future Improvements:
+
+Collect training samples under different lighting conditions.
+Add more hand gestures.
+Improve real-world accuracy.
+Add more advanced gesture and sign-language recognition.
